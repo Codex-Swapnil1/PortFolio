@@ -1,0 +1,35 @@
+{
+    "experiences": [
+        {
+            "title": "Electrical Designer",
+            "subtitle": "Alive Tech, Nagpur",
+            "workType": "InternShip",
+            "workDescription": [
+                "Cataloging and Pricing of the part by using AutoCAD software.",
+                "Designed and developed the Transformer Part and Electrical Diagram",
+                "Ensure that The Design and description mentioned on the document."
+            ],
+            "dateText": "12/2019 – 03/2020"
+        },
+        {
+            "title": "PLC Programmer",
+            "subtitle": "Just Engineering Pvt. ltd",
+            "workType": "Apprenticeship",
+            "workDescription": [
+                "Learned About PLC Hardware and Software Skill.",
+                "Desined the program For PLC"
+            ],
+            "dateText": "09/2019 – 12/2019"
+        },
+        {
+            "title": "Industrial Trainee",
+            "subtitle": "Maharashtra State Power Generation Co. Limited. (Mahagenco.)",
+            "workType": "Freelance",
+            "workDescription": [
+                "Process of Electricity generation.",
+                "Safety Precautions. and Types of machinery used in Generation."
+            ],
+            "dateText": "12/2018 – 01/2019"
+        }
+    ]
+}

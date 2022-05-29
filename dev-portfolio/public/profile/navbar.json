@@ -1,0 +1,39 @@
+{
+    "logo" : {
+        "source": "images/swapnil.png",
+        "height" : 45,
+        "width" : 45
+    },
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/"
+        },
+        {
+            "title": "About",
+            "href": "/about"
+        },
+        {
+            "title": "Skills",
+            "href": "/skills"
+        },
+        {
+            "title": "Education",
+            "href": "/education"
+        },
+        {
+            "title": "Experience",
+            "href": "/experience"
+        },
+        {
+            "title": "Projects",
+            "href": "/projects"
+        },
+        {
+            "title": "Resume",
+            "href": "https://docs.google.com/document/d/1aRcXCO68KVL1nPRnCwXNEGJSwweOaVFgGMoaRsQ8h6s/edit?usp=sharing",
+            "type": "link"
+        }
+    ]
+
+}

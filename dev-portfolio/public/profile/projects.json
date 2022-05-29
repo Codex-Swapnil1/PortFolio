@@ -1,0 +1,50 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/flipkart_project.png",
+            "title": "Flipkart Clone",
+            "bodyText": "Flipkart is one of India's leading E-commerce marketplaces \n\n\n Features:\n - Social Sign-in/Sign-up \n - Product Page \n - User authentication \n\n Areas of responsibility: \n - Laid out the database schema and build the REST API for the same.\n - Developed the Product Details Page. \n\n A collaborative project built by a team of 5 executed in 5 days.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/hemant-suryawanshi/Flipkart-Clone-1.0"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://upbeat-wilson-2fe19b.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "E-commerce",
+                "netlify"
+            ]
+        },
+        {
+            "image" : "images/projects/bigbasket.png",
+            "title": "BigBasket Clone",
+            "bodyText": "BigBasket is an online food and grocery store that delivers personal and household needs right to customers' doorstep.\n\n\n Features:\n - Product Page \n - User authentication \n - Payment Gateway \n\n Areas of responsibility: \n - Laid out the database schema and build the REST API for the same.\n - Developed My Basket and Cart Page \n - used Material UI for Popover \n\n A collaborative project built by a team of 5 executed in 5 days.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/S-hub1996/Big-basket-clone"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://big-basket-clone-by-masai-school.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "Material UI",
+                "React Redux",
+                "React DOM",
+                "netlify",
+                "CSS",
+                "E-commerce"
+            ]
+        }
+    ]
+}

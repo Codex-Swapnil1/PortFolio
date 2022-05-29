@@ -1,0 +1,31 @@
+{
+    "education":[
+        {
+            "title": "Present- 2022",
+            "cardTitle": "Full Stack Web Development ",
+            "cardSubtitle":"Masai School, Bangalore",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "2020",
+            "cardTitle": "B.E, Electrical Engineering (Electronics & Power)",
+            "cardSubtitle":"BabaSaheb Naik College Of Engineering, Pusad",
+            "cardDetailedText": "CGPA - 6.51"
+           
+        },
+        {
+            "title": "March 2013",
+            "cardTitle": "12 th",
+            "cardSubtitle":"New English High School, Wardha",
+            "cardDetailedText": "Marks - 54.14%"
+        },
+        {
+            "title": "Feb 2011",
+            "cardTitle": "10 th",
+            "cardSubtitle":"New English High School, Wardha",
+            "cardDetailedText": "Marks - 69%"
+        }
+    ]
+}
