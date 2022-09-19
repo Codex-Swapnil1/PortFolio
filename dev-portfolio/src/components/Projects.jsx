@@ -3,7 +3,7 @@ import { Container, Row, Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal/Fade';
-import Header from './Header';
+//import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
 import FallbackSpinner from './FallbackSpinner';
@@ -31,10 +31,10 @@ const Projects = (props) => {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-  const numberOfItems = showMore && data ? data.length : 6;
+  const numberOfItems = showMore && data ? data.length : 3;
   return (
     <>
-      <Header title={header} />
+      {/* <Header title={header} /> */}
       {data
         ? (
           <div className="section-content-container">

@@ -4,8 +4,8 @@ import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
-import Fade from 'react-reveal';
-import Header from './Header';
+import Fade from 'react-reveal/Fade';
+//import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/experience.css';
@@ -46,7 +46,7 @@ function Experience(props) {
 
   return (
     <>
-      <Header title={header} />
+      {/* <Header title={header} /> */}
 
       {data
         ? (

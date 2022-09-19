@@ -132,7 +132,7 @@ section.timeline-card-content div.card-description > p {
   .navbar__link--active::after {
     width: 0;
   }
-  
+
   .navbar__link--active:hover::after {
     width: 0;
   }

@@ -2,10 +2,10 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Chrono } from 'react-chrono';
 import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
+import Fade from 'react-reveal/Fade';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
-import Header from './Header';
+//import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/education.css';
 
@@ -41,7 +41,7 @@ function Education(props) {
 
   return (
     <>
-      <Header title={header} />
+      {/* <Header title={header} /> */}
       {data ? (
         <Fade>
           <div style={{ width }} className="section-content-container">

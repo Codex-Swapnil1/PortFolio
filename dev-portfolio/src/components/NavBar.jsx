@@ -5,6 +5,8 @@ import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
+import { Link } from "react-scroll";
+
 
 const styles = {
   logoStyle: {
@@ -23,7 +25,7 @@ const ExternalNavLink = styled.a`
   }
 `;
 
-const InternalNavLink = styled(NavLink)`
+const InternalNavLink = styled(Link)`
   color: ${(props) => props.theme.navbarTheme.linkColor};
   &:hover {
     color: ${(props) => props.theme.navbarTheme.linkHoverColor};
@@ -31,7 +33,7 @@ const InternalNavLink = styled(NavLink)`
   &::after {
     background-color: ${(props) => props.theme.accentColor};
   }
-  &.navbar__link--active {
+  &.active {
     color: ${(props) => props.theme.navbarTheme.linkActiveColor};
   }
 `;
@@ -92,27 +94,29 @@ const NavBar = () => {
                   className="navbar__link"
                   theme={theme}
                 >
-                  {section.title}
+                {section.title}
                 </ExternalNavLink>
               ) : (
                 <InternalNavLink
                   key={section.title}
                   onClick={() => setExpanded(false)}
                   exact={index === 0}
-                  activeClassName="navbar__link--active"
+                  activeClass="active"
                   className="navbar__link"
-                  to={section.href}
+                  smooth spy to={section.id}
                   theme={theme}
                 >
-                  {section.title}
+                {section.title}
                 </InternalNavLink>
               )))}
           </Nav>
+          <a className="navbar__link" href="https://drive.google.com/file/d/1WwjbzjleTzaUDPFahq6dUResH-dzK4fd/view?usp=sharing" target="_blank">Resume</a>
           <ThemeToggler
             onClick={() => setExpanded(false)}
           />
         </Navbar.Collapse>
       </Container>
+
     </Navbar>
   );
 };

@@ -7,33 +7,40 @@
     "sections": [
         {
             "title": "Home",
-            "href": "/"
+            "href": "/",
+            "id": "shome"
         },
         {
             "title": "About",
-            "href": "/about"
+            "href": "/about",
+            "id": "sabout"
         },
         {
             "title": "Skills",
-            "href": "/skills"
+            "href": "/skills",
+            "id": "sskills"
         },
         {
             "title": "Education",
-            "href": "/education"
+            "href": "/education",
+            "id": "seducation"
         },
         {
             "title": "Experience",
-            "href": "/experience"
+            "href": "/experience",
+            "id": "experience"
         },
         {
             "title": "Projects",
-            "href": "/projects"
+            "href": "/projects",
+            "id": "sproject"
         },
         {
-            "title": "Resume",
-            "href": "https://docs.google.com/document/d/1aRcXCO68KVL1nPRnCwXNEGJSwweOaVFgGMoaRsQ8h6s/edit?usp=sharing",
-            "type": "link"
+            "title": "Contact",
+            "href": "/contact_me",
+            "id": "contact"
         }
+
     ]
 
 }

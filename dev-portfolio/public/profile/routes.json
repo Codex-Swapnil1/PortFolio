@@ -24,6 +24,11 @@
             "component": "Projects",
             "path": "/projects",
             "headerTitle": "Projects"
+        },
+        {
+            "component": "ContactMe",
+            "path": "/contact_me",
+            "headerTitle": "Contact"
         }
     ]
 }

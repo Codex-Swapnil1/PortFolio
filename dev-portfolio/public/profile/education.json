@@ -1,7 +1,7 @@
 {
     "education":[
         {
-            "title": "Present- 2022",
+            "title": "2021- Present",
             "cardTitle": "Full Stack Web Development ",
             "cardSubtitle":"Masai School, Bangalore",
             "icon" : {
@@ -13,17 +13,17 @@
             "cardTitle": "B.E, Electrical Engineering (Electronics & Power)",
             "cardSubtitle":"BabaSaheb Naik College Of Engineering, Pusad",
             "cardDetailedText": "CGPA - 6.51"
-           
+
         },
         {
             "title": "March 2013",
-            "cardTitle": "12 th",
+            "cardTitle": "12th",
             "cardSubtitle":"New English High School, Wardha",
             "cardDetailedText": "Marks - 54.14%"
         },
         {
             "title": "Feb 2011",
-            "cardTitle": "10 th",
+            "cardTitle": "10th",
             "cardSubtitle":"New English High School, Wardha",
             "cardDetailedText": "Marks - 69%"
         }
